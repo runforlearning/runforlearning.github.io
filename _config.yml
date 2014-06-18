@@ -1,0 +1,7 @@
+name: Run For Learning 5k Run/Walk and Kids Fun Run
+
+description: 5k Run/Walk and Kids Fun Run to raise funds for four Grayslake pre-schools
+
+author_email: webmaster@grayslake-coop.com
+
+exclude: [README.md, tags, vendor]
