@@ -39,3 +39,13 @@ footer > .container {
   /*background-repeat: no-repeat;*/
   /*color: white;*/
   /*text-shadow: black 0.3em 0.3em 0.3em;*/ }
+
+section {
+  margin-bottom: 20px; }
+
+#preschools h1 {
+  margin-bottom: 40px; }
+#preschools img.logo {
+  max-height: 170px; }
+#preschools .thumbnail {
+  min-height: 374px; }
