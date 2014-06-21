@@ -1,7 +1,17 @@
+org_name: Run For Learning
+
 name: Run For Learning 5k Run/Walk and Kids Fun Run
+
+short_name: 5k Run/Walk and Kids Fun Run
 
 description: 5k Run/Walk and Kids Fun Run to raise funds for four Grayslake pre-schools
 
 author_email: webmaster@grayslake-coop.com
+
+registration_vendor_url: "www.signmeup.com/101582"
+
+registration_link: '<a href="http://www.signmeup.com/101582" class="btn btn-primary btn-lg" target="_blank">Register</a>'
+
+sponsor_link: '<a href ="/sponsor.html" class="btn btn-success btn-lg">Become a Sponsor</a>'
 
 exclude: [README.md, tags, vendor]
