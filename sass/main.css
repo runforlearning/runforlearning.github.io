@@ -38,14 +38,20 @@ footer > .container {
   /*background-size: cover;*/
   /*background-repeat: no-repeat;*/
   /*color: white;*/
-  /*text-shadow: black 0.3em 0.3em 0.3em;*/ }
+  /*text-shadow: black 0.3em 0.3em 0.3em;*/
+  background-color: lightblue; }
 
 section {
   margin-bottom: 20px; }
 
-#preschools h1 {
+#preschools h2 {
   margin-bottom: 40px; }
 #preschools img.logo {
   max-height: 170px; }
 #preschools .thumbnail {
   min-height: 374px; }
+
+#sponsors {
+  background-color: #f5f5f5; }
+  #sponsors h2 {
+    margin-bottom: 40px; }
