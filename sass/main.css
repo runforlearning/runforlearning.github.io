@@ -52,7 +52,9 @@ section {
 #preschools img.logo {
   max-height: 170px; }
 #preschools .thumbnail {
-  min-height: 374px; }
+  min-height: 350px; }
+#preschools img#peppermint-stick-logo {
+  margin: 40px 0 39px; }
 
 #sponsors {
   background-color: #f5f5f5; }
