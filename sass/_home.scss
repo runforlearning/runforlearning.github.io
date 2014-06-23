@@ -1,13 +1,15 @@
-.jumbotron {
-  /*margin-bottom: 0px;*/
-  /*background-image: url(../assets/images/logo.jpg);*/
-  /*background-position: 0% 25%;*/
-  /*background-size: cover;*/
-  /*background-repeat: no-repeat;*/
-  /*color: white;*/
-  /*text-shadow: black 0.3em 0.3em 0.3em;*/
+#home-masthead.jumbotron {
+  /*background-color: #ff4d4d;*/
   background-color: lightblue;
-  }
+}
+#sponsor-masthead.jumbotron {
+  /*background-color: #f58a3d;*/
+  background-color: lightblue;
+}
+#about-masthead.jumbotron {
+  /*background-color: #00c75a;*/
+  background-color: lightblue;
+}
 
 section {
   margin-bottom: 20px;

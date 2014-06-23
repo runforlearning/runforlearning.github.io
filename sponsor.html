@@ -3,27 +3,43 @@ layout: default
 title: Run for Learning 5K Run/Walk and Kids Fun Run Sponsors
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <section id="become-a-sponsor">
-        <div class="page-header">
-          <h1>Become a Sponsor</h1>
+<div id="sponsor-masthead" class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div id="main-logo" class="thumbnail">
+          <img src="assets/images/logo.jpg" alt="Run for Learning logo"/>
         </div>
-        <p class="lead">We cordially invite you to participate as a sponsor for the premier Run For Learning 5k Run/Walk and Kids Fun Run.</p>
-        <p>This event will raise money for four local Grayslake preschools. Your sponsorship helps to defray from the cost of organizing the event along with providing a great opportunity to highlight your company name to thousands of people.  Please consider sponsoring this great event and help our children start off on the right path to a great education in our own community.<p>
-
-        {% include become_a_sponsor.html %}
-      </section>
-
-      {% include types_of_sponsorship.html %}
-
-      <div class="well">
-        If you have any questions feel free to email <a href"mailto:runforlearning@gmail.com">runforlearning@gmail.com</a> or call <abbr title="Phone">P:</abbr> (224) 419-4023.
       </div>
-    </div>
-    <div id="sponsor-sidebar" class="col-md-4">
-      {% include sponsor_sidebar.html %}
+      <div class="col-md-7 col-md-offset-1">
+        <h1>Become a Sponsor</h1>
+        <p>We cordially invite you to participate as a sponsor for the premier Run For Learning 5k Run/Walk and Kids Fun Run.</p>
+        <p>
+          <a href="assets/files/rfl_5k_sponsorship_form.pdf" alt="Run for Learning 5k Sponsorship form" class="btn btn-success btn-lg" target="_blank">Download our sponsorship form</a>
+        </p>
+      </div>
     </div>
   </div>
 </div>
+
+<section id="become-a-sponsor">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <p class="lead">This event will raise money for four local Grayslake preschools.</p>
+        <p>Your sponsorship helps to defray from the cost of organizing the event along with providing a great opportunity to highlight your company name to thousands of people.  Please consider sponsoring this great event and help our children start off on the right path to a great education in our own community.<p>
+
+        {% include become_a_sponsor.html %}
+
+        {% include types_of_sponsorship.html %}
+
+        <div class="well">
+          If you have any questions feel free to email <a href"mailto:runforlearning@gmail.com">runforlearning@gmail.com</a> or call <abbr title="Phone">P:</abbr> (224) 419-4023.
+        </div>
+      </div>
+      <div id="sponsor-sidebar" class="col-md-4">
+        {% include sponsor_sidebar.html %}
+      </div>
+    </div>
+  </div>
+</section>
