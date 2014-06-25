@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Inaugural Run for Learning 5K Run/Walk and Kids Fun Run
+description: Run for Learning is a a professionally timed 5K walk/run that benefits four Grayslake, IL schools.
 ---
 
 <div id="home-masthead" class="jumbotron">
@@ -15,7 +16,11 @@ title: Inaugural Run for Learning 5K Run/Walk and Kids Fun Run
         <h1>{{site.short_name}}</h1>
         <p>The inaugural {{site.name}} will take place <strong>September 20th, 2014</strong> at <strong>Downtown Grayslake</strong></p>
         <p>Sign up today to help four local Grayslake pre-schools!</p>
-        <p>{{site.registration_link}} {{site.sponsor_link}}</p>
+        <p>
+          {{site.registration_link}}
+          {{site.sponsor_link}} 
+          <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/logo.jpg&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
+        </p>
       </div>
     </div>
   </div>
