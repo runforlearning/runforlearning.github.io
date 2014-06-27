@@ -9,14 +9,14 @@ description: Become a sponsor today and help raise money for four local Grayslak
     <div class="row">
       <div class="col-md-4">
         <div id="main-logo" class="thumbnail">
-          <img src="assets/images/logo.jpg" alt="Run for Learning logo"/>
+          {{ site.logo_image }}
         </div>
       </div>
       <div class="col-md-7 col-md-offset-1">
         <h1>Become a Sponsor</h1>
         <p>We cordially invite you to participate as a sponsor for the premier Run For Learning 5k Run/Walk and Kids Fun Run.</p>
         <p>
-          <a href="assets/files/rfl_5k_sponsorship_form.pdf" alt="Run for Learning 5k Sponsorship form" class="btn btn-success btn-lg" target="_blank">Download our sponsorship form</a>
+          <a href="{{ site.sponsorship_form_url }}" alt="Run for Learning 5k Sponsorship form" class="btn btn-success btn-lg" target="_blank">Download our sponsorship form</a>
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/logo.jpg&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
       </div>
@@ -36,7 +36,7 @@ description: Become a sponsor today and help raise money for four local Grayslak
         {% include types_of_sponsorship.html %}
 
         <div class="well">
-          If you have any questions feel free to email <a href"mailto:runforlearning@gmail.com">runforlearning@gmail.com</a> or call <abbr title="Phone">P:</abbr> (224) 419-4023.
+          If you have any questions feel free to email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> or call <abbr title="Phone">P:</abbr> {{ site.contact_phone }}.
         </div>
       </div>
       <div id="sponsor-sidebar" class="col-md-4">

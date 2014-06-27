@@ -16,4 +16,16 @@ registration_link: '<a href="http://www.signmeup.com/101582" class="btn btn-dang
 
 sponsor_link: '<a href ="/sponsor.html" class="btn btn-success btn-lg">Become a Sponsor</a>'
 
+facebook_url: 'https://www.facebook.com/runforlearning5k'
+
+contact_email: 'runforlearning@gmail.com'
+
+contact_phone: '(224) 419-4023'
+
+sponsorship_form_url: 'assets/files/rfl_5k_sponsorship_form.pdf'
+
+logo_url: 'assets/images/logo.jpg'
+
+logo_image: '<img src="assets/images/logo.jpg" alt="Run for Learning logo"/>'
+
 exclude: [README.md, tags, vendor]
