@@ -14,7 +14,7 @@ description: About Run for Learning
       </div>
       <div class="col-md-7 col-md-offset-1">
         <h1>About Run for Learning 5K</h1>
-        <p>A fundraiser to benefit four Grayslake area pre-schools &mdash; Grayslake Cooperative Nursery School, Gloryland Pre-School, Westlake Christian Academy and Peppermint Stick Children's Center.</p>
+        <p>{{ site.name }} is a fundraiser to benefit four Grayslake area pre-schools &mdash; Grayslake Cooperative Nursery School, Gloryland Pre-School, Westlake Christian Academy and Peppermint Stick Children's Center.</p>
         <p>
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/logo.jpg&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
@@ -27,8 +27,15 @@ description: About Run for Learning
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <p class="lead">Run for Learning 5K is a fundraiser to benefit four Grayslake area pre-schools</p>
-        <p>The inaugural running of the race will be in downtown Grayslake on September 9th, 2014</p>
+        <p class="lead text-center">Run for Learning benefits the following Grayslake area pre-schools</p>
+        <hr>
+        {% include about_gcns.html %}
+        <hr>
+        {% include about_gloryland.html %}
+        <hr>
+        {% include about_westlake.html %}
+        <hr>
+        {% include about_peppermint.html %}
       </div>
     </div>
   </div>
