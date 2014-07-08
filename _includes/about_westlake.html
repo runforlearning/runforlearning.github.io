@@ -1,4 +1,4 @@
-<div class="media">
+<div class="media hidden-xs">
   <a class="pull-left" href="{{ site.westlake_url }}" target="_blank">
     <img class="media-object" src="{{ site.westlake_logo_url }}" alt="Westlake Christian Academy logo">
   </a>
@@ -8,8 +8,22 @@
         Westlake Christian Academy
       </a>
     </h4>
-    <p>Our mission is to provide for Christian families a Christ-centered education that disciples our students to honor Jesus Christ in thought, word, and deed.</p>
-    <p>In our Preschool program, we believe that young children learn best through play and hands-on learning experiences which take place in a safe and caring environment.  It is our goal to help each child grow and develop intellectually, physically, spiritually, socially, and emotionally.  We provide a variety of developmentally appropriate learning activities each day including free play, circle time, center activities, and indoor/outdoor large muscle play.</p>
+    <p>{{ page.WCA_preable }}</p>
+    <p>{{ page.WCA_main_text }}</p>
   </div>
 </div>
 
+<div class="visible-xs">
+  <div class="thumbnail">
+    <a href="{{ site.westlake_url }}" target="_blank">
+      <img id="westlake-christian-logo" src="{{ site.westlake_logo_url }}" alt="Westlake Christian logo" class="logo"/>
+    </a>
+    <div class="caption">
+      <a href="{{ site.westlake_url }}" target="_blank">
+        <h4>Westlake Christian Academy</h4>
+      </a>
+      <p>{{ page.WCA_preable }}</p>
+      <p>{{ page.WCA_main_text }}</p>
+    </div>
+  </div>
+</div>

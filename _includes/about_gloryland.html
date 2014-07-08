@@ -1,4 +1,4 @@
-<div class="media">
+<div class="media hidden-xs">
   <a class="pull-right" href="{{ site.gloryland_url }}" target="_blank">
     <img class="media-object" src="{{ site.gloryland_logo_url }}" alt="Gloryland Preschool logo">
   </a>
@@ -8,8 +8,22 @@
         Gloryland Preschool
       </a>
     </h4>
-    <p>We are a state licensed preschool facility dedicated to sharing the love of Jesus with children and families that come into contact with us.</p>
-    <p>Our culturally diverse student body enjoys the academic challenges presented to them through our curriculum based program. We recognize that positive interactions and development during the preschool years are a foundation to future educational successes. We also believe spiritual needs are an element of this development. As a Christian preschool we want our children to know that they are special and loved by Jesus. This message is conveyed daily by the teaching of prayers, music, and songs at group and snack time; Bible stories in circle time as well as chapel talks with Pastor Brian.</p>
+    <p>{{ page.GLORYLAND_preamble }}</p>
+    <p>{{ page.GLORYLAND_main_text }}</p>
   </div>
 </div>
 
+<div class="visible-xs">
+  <div class="thumbnail">
+    <a href="{{ site.gloryland_url }}" target="_blank">
+      <img id="gloryland-logo" src="{{ site.gloryland_logo_url }}" alt="Gloryland Preschool logo" class="logo"/>
+    </a>
+    <div class="caption">
+      <a href="{{ site.gloryland_url }}" target="_blank">
+        <h4>Gloryland Preschool</h4>
+      </a>
+      <p>{{ page.GLORYLAND_preamble }}</p>
+      <p>{{ page.GLORYLAND_main_text }}</p>
+    </div>
+  </div>
+</div>
