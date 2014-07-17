@@ -72,3 +72,6 @@ section {
 
 form#brace-io-contact-form {
   margin-bottom: 1em; }
+
+a.navbar-brand {
+  padding: 0 15px; }
