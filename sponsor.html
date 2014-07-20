@@ -20,7 +20,12 @@ sitemap:
         <h1>Become a Sponsor</h1>
         <p>We cordially invite you to participate as a sponsor for the premier {{ site.name }}.</p>
         <p>
-          <a href="{{ site.sponsorship_form_url }}" alt="Run for Learning 5k sponsorship form" class="btn btn-success btn-lg" target="_blank">Download our sponsorship form</a>
+          <span class="visible-xs">
+            <a href="{{ site.sponsorship_form_url }}" alt="Run for Learning 5k sponsorship form" class="btn btn-success btn-lg" target="_blank"><span class="glyphicon glyphicon-download"></span> Sponsorship form</a>
+          </span>
+          <span class="hidden-xs">
+            <a href="{{ site.sponsorship_form_url }}" alt="Run for Learning 5k sponsorship form" class="btn btn-success btn-lg" target="_blank">Download our sponsorship form</a>
+          </span>
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/logo.jpg&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
       </div>
