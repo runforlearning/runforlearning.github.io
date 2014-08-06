@@ -63,6 +63,16 @@ section {
   #sponsors h2 {
     margin-bottom: 40px; }
 
+#race-route-directions li {
+  border-bottom: 1px solid #e3e3e3;
+  padding: 10px 0; }
+#race-route-directions li:last-child {
+  border-bottom: none; }
+#race-route-directions li > span:first-child {
+  margin-left: 24px; }
+#race-route-directions li > span {
+  margin-left: 6px; }
+
 #sponsor-sidebar {
   background-color: #f5f5f5; }
 
