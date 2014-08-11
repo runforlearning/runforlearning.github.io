@@ -35,6 +35,14 @@ section {
 #sponsors {
   h2 { margin-bottom: 40px; }
   background-color: #f5f5f5;
+
+  div.caption {
+    min-height: 120px;
+  }
+
+  #rjgalla_grad_sponsor img {
+    margin: 80px 0;
+  }
 }
 
 #race-route-directions {
