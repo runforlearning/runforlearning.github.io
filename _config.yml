@@ -44,5 +44,9 @@ peppermint_url: 'http://peppermintstickcc.com'
 
 peppermint_logo_url: 'assets/images/peppermint_stick_logo.jpg'
 
+race_results_5k_2014: '<a href="http://racetime.info/wp-content/uploads/2014/09/Run-For-Learning-5K-Overall-Results.htm" title="Run for Learning 5K 2014 Race Results" class="btn btn-success btn-lg" target="_blank">5K race results</a>'
+
+race_results_1k_2014: '<a href="http://racetime.info/wp-content/uploads/2014/09/Run-For-Learning-1K-Youth-Overall-Results.htm" title="Run for Learning 1K 2014 Race Results" class="btn btn-success btn-lg" target="_blank">1K race results</a>'
+
 exclude: [README.md, tags, vendor]
 

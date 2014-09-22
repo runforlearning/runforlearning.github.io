@@ -19,17 +19,19 @@ sitemap:
       </div>
       <div class="col-md-7 col-md-offset-1">
         <h1>{{site.short_name}}</h1>
-        <p>The inaugural {{site.name}} will take place <strong>September 20th, 2014</strong> at <strong>Downtown Grayslake</strong></p>
-        <p>Sign up <s>today</s> at the event to <s>avail of <strong>early registration pricing</strong> while also helping</s> help four local Grayslake pre-schools!</p>
+        <p>Thanks to all our participants for coming out for our premier Run For Learning event.</p>
+        <h4>Congratulations to all and see you again next year!</h4>
         <p>
-          {{site.registration_link}}
-          {{site.sponsor_link}} 
+          {{site.race_results_5k_2014}}
+          {{site.race_results_1k_2014}}
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/logo.jpg&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
       </div>
     </div>
   </div>
 </div>
+
+{% include congratulations.html %}
 
 {% include event_details.html %}
 
