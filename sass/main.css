@@ -1,5 +1,8 @@
 /* Sticky footer styles
  * -------------------------------------------------- */
+@import url(owl-carousel/owl.carousel.css);
+@import url(owl-carousel/owl.transitions.css);
+@import url(owl-carousel/owl.theme.css);
 html {
   position: relative;
   min-height: 100%; }
@@ -78,6 +81,11 @@ section {
   margin-left: 24px; }
 #race-route-directions li > span {
   margin-left: 6px; }
+
+#race-day-photo-carousel .item img {
+  display: block;
+  width: 100%;
+  height: auto; }
 
 #sponsor-sidebar {
   background-color: #f5f5f5; }
