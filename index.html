@@ -14,11 +14,10 @@ sitemap:
     <div class="row">
       <div id="jumbotron-copy" class="col-md-7 col-md-offset-5">
         <h1>{{site.short_name}}</h1>
-        <p>Thanks to all our participants for coming out for our premier Run For Learning event.</p>
-        <h4>Congratulations to all and see you again next year!</h4>
+        <p>The 2nd Annual {{site.name}} will take place <strong>{{site.event_date}}</strong> at <strong>{{site.event_location}}</strong></p>
+        <p>Registration will be opening soon! Be sure to check back later.</p>
         <p>
-          {{site.race_results_5k_2014}}
-          {{site.race_results_1k_2014}}
+          {{site.sponsor_link}} 
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/logo.jpg&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
       </div>
@@ -26,7 +25,7 @@ sitemap:
   </div>
 </div>
 
-{% include thank_you.html %}
+{% include event_details.html %}
 
 {% include awards.html %}
 

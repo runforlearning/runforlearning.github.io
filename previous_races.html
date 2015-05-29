@@ -9,25 +9,44 @@ sitemap:
   lastmod: 2014-06-09T22:42:19-05:00
 ---
 
-<div id="sponsor-masthead" class="jumbotron">
+<div id="previous-races-masthead" class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div id="main-logo" class="thumbnail">
+          {{ site.logo_image }}
+        </div>
+      </div>
+      <div class="col-md-7 col-md-offset-1">
+        <h1>Previous Races</h1>
+        <p>Our inaugural {{ site.name }} was held on September 20th, 2014.</p>
+        <p>We raised over <strong>$4,000</strong> for four local pre-schools.</p>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
     </div>
   </div>
 </div>
 
-<section id="become-a-sponsor">
+{% include 2014/thank_you.html %}
+
+{% include 2014/preschools.html %}
+
+<section id="previous-races">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        {% include congratulations.html %}
+        {% include 2014/congratulations.html %}
 
-        {% include race_day_photos.html %}
+        {% include 2014/race_day_photos.html %}
 
-        {% include event_details.html %}
+
+        {% include 2014/event_details.html %}
       </div>
       <div id="sponsor-sidebar" class="col-md-4 clearfix">
-        {% include sponsor_sidebar.html %}
+        {% include 2014/sponsor_sidebar.html %}
       </div>
     </div>
   </div>
