@@ -48,6 +48,9 @@ footer > .container {
 #about-masthead.jumbotron {
   background-color: lightblue; }
 
+#previous-races-masthead.jumbotron {
+  background-color: lightblue; }
+
 section {
   margin-bottom: 20px; }
 
@@ -99,3 +102,5 @@ form#brace-io-contact-form {
 
 a.navbar-brand {
   padding: 6px 15px 0; }
+
+/*# sourceMappingURL=main.css.map */
