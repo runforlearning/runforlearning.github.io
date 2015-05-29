@@ -22,6 +22,11 @@
         {% else %}
           <li><a href="/sponsor.html">Sponsor</a></li>
         {% endif %}
+        {% if page.url == "/previous_races.html" %}
+          <li class="active"><a href="{{page.url}}" class="active">Previous Races</a></li>
+        {% else %}
+          <li><a href="/previous_races.html">Previous Races</a></li>
+        {% endif %}
         {% if page.url == "/about.html" %}
           <li class="active"><a href="{{page.url}}" class="active">About</a></li>
         {% else %}
