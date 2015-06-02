@@ -46,7 +46,12 @@ footer > .container {
   background-color: lightblue; }
 
 #about-masthead.jumbotron {
-  background-color: lightblue; }
+  background-image: url("/assets/images/2015_race_route.png");
+  background-size: cover;
+  background-position: 17px -366px; }
+  #about-masthead.jumbotron #jumbotron-copy {
+    background-color: whitesmoke;
+    opacity: 0.85; }
 
 #previous-races-masthead.jumbotron {
   background-color: lightblue; }
