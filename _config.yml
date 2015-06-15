@@ -28,9 +28,9 @@ contact_phone: '(224) 419-4023'
 
 sponsorship_form_url: 'assets/files/rfl_5k_sponsorship_form_v2.pdf'
 
-logo_url: 'assets/images/logo.jpg'
+logo_image: '<img src="assets/images/run_for_learning_logo_2015.png" alt="Run for Learning logo"/>'
 
-logo_image: '<img src="assets/images/logo.jpg" alt="Run for Learning logo"/>'
+2014_logo_image: '<img src="assets/images/run_for_learning_logo_2014.jpg" alt="Run for Learning logo"/>'
 
 gcns_url: 'http://www.grayslake-coop.com/'
 
