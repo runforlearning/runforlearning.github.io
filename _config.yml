@@ -14,9 +14,17 @@ event_date: "September 19th, 2015"
 
 event_location: "Downtown Grayslake, IL"
 
-registration_vendor_url: "www.signmeup.com/101582"
+registration_url: 'registration.html'
 
-registration_link: '<a href="http://www.signmeup.com/101582" class="btn btn-danger btn-lg" disabled="disabled" target="_blank">Register</a>'
+registration_vendor_url: "https://www.signmeup.com/109360"
+
+registration_vendor_link: '<a href="https://www.signmeup.com/109360" class="btn btn-danger btn-lg" target="_blank">Register Online Now!</a>'
+
+registration_link: '<a href="registration.html" class="btn btn-danger btn-lg">Register Now!</a>'
+
+registration_form_url: 'assets/files/2015_RunForLearning_registration_form.pdf'
+
+registration_form_link: '<a href="assets/files/2015_RunForLearning_registration_form.pdf" alt="2015 Run For Learning Registration Form" target="_blank"><i class="fa fa-file-pdf-o"></i> registration form</a>'
 
 sponsor_link: '<a href ="/sponsor.html" class="btn btn-success btn-lg">Become a Sponsor</a>'
 

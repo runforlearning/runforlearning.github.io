@@ -17,6 +17,11 @@
         {% else %}
           <li><a href="/index.html">Home</a></li>
         {% endif %}
+        {% if page.url == "/registration.html" %}
+          <li class="active"><a href="{{page.url}}" class="active">Registration</a></li>
+        {% else %}
+          <li><a href="/registration.html">Registration</a></li>
+        {% endif %}
         {% if page.url == "/sponsor.html" %}
           <li class="active"><a href="{{page.url}}" class="active">Sponsor</a></li>
         {% else %}
