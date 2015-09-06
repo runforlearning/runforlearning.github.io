@@ -62,14 +62,19 @@ section {
 #main-logo {
   margin-top: 35px; }
 
-#preschools h2 {
+#preschools h2, #trade-preschools h2 {
   margin-bottom: 40px; }
-#preschools img.logo {
+#preschools img.logo, #trade-preschools img.logo {
   max-height: 170px; }
-#preschools .thumbnail {
+#preschools .thumbnail, #trade-preschools .thumbnail {
   min-height: 350px; }
-#preschools img#peppermint-stick-logo {
-  margin: 40px 0 39px; }
+#preschools img#peppermint-stick-logo, #trade-preschools img#peppermint-stick-logo {
+  margin: 24px 0; }
+#preschools img#four-kids-logo, #trade-preschools img#four-kids-logo {
+  margin: 50px 0; }
+
+#trade-preschools h3 {
+  font-size: 20px; }
 
 #sponsors {
   background-color: #f5f5f5; }
