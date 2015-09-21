@@ -72,5 +72,9 @@ race_results_5k_2014: '<a href="http://racetime.info/wp-content/uploads/2014/09/
 
 race_results_1k_2014: '<a href="http://racetime.info/wp-content/uploads/2014/09/Run-For-Learning-1K-Youth-Overall-Results.htm" title="Run for Learning 1K 2014 Race Results" class="btn btn-success btn-lg" target="_blank">1K race results</a>'
 
+race_results_5k_2015: '<a href="http://www.racetime.info/wp-content/uploads/2015/09/Run-For-Learning-5K-Overall-Results.htm" title="Run for Learning 5K 2015 Race Results" class="btn btn-success btn-lg" target="_blank">5K race results</a>'
+
+race_results_1k_2015: '<a href="http://www.racetime.info/wp-content/uploads/2015/09/Run-For-Learning-Youth-Run.htm" title="Run for Learning 1K 2015 Race Results" class="btn btn-success btn-lg" target="_blank">1K race results</a>'
+
 exclude: [README.md, tags, vendor]
 

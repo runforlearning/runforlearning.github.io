@@ -19,16 +19,19 @@ sitemap:
       </div>
       <div id="jumbotron-copy" class="col-md-7 col-md-offset-1">
         <h1>{{site.short_name}}</h1>
-        <p>The 2nd Annual {{site.name}} will take place <strong>{{site.event_date}}</strong> at <strong>{{site.event_location}}</strong></p>
-        <p><strong>Registration</strong> is still available on the day of the event!</p>
+        <p>Thanks to all our participants for coming out for the 2nd Annual {{site.name}} event.</p>
+        <h4>Congratulations to all and see you again next year!</h4>
         <p>
-          {{site.sponsor_link}}
+          {{site.race_results_5k_2015}}
+          {{site.race_results_1k_2015}}
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/run_for_learning_logo_2015.png&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
       </div>
     </div>
   </div>
 </div>
+
+{% include congratulations.html %}
 
 {% include event_details.html %}
 
