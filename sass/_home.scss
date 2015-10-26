@@ -33,6 +33,12 @@ section {
   margin-top: 35px;
 }
 
+#donations {
+  .panel-body {
+    min-height: 180px;
+  }
+}
+
 #preschools, #trade-preschools {
   h2 { margin-bottom: 40px; }
   img.logo {
