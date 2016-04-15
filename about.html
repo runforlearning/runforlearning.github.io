@@ -25,7 +25,7 @@ Marys_peppermint_main_text: Mary&apos;s Peppermint Stick is a developmentally ap
       </div>
       <div id="jumbotron-copy" class="col-md-7 col-md-offset-1">
         <h1>About Run for Learning 5K</h1>
-        <p>{{ site.name }} is a fundraiser to benefit two Grayslake area pre-schools &mdash; Westlake Christian Academy and Tiny Treasures Preschool.</p>
+        <p>{{ site.name }} is an annual five kilometer race that began in 2014 as a way to raise awareness of and funds for Grayslake, IL preschools.</p>
         <p>
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/run_for_learning_logo_2015.png&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
@@ -34,31 +34,4 @@ Marys_peppermint_main_text: Mary&apos;s Peppermint Stick is a developmentally ap
   </div>
 </div>
 
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <p class="lead text-center">Run for Learning benefits the following Grayslake area preschools</p>
-        <hr>
-        {% include about_westlake.html %}
-        <hr>
-        {% include about_tiny_treasures.html %}
-      </div>
-    </div>
-  </div>
-</section>
-<section id="trade-sponsors">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <p class="lead text-center">Run for Learning thanks the following Trade Sponsors</p>
-        <hr>
-        {% include about_four_kids.html %}
-        <hr>
-        {% include about_peppermint.html %}
-        <hr>
-        {% include about_marys_peppermint.html %}
-      </div>
-    </div>
-  </div>
-</section>
+{% include mission.html %}
