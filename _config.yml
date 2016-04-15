@@ -10,7 +10,15 @@ description: 5K Run/Walk and Kids Fun Run to raise funds for two Grayslake pre-s
 
 author_email: webmaster@grayslake-coop.com
 
-event_date: "September 19th, 2015"
+running: "3<sup>rd</sup> Annual"
+
+event_year: "2016"
+
+event_date: "September 24<sup>th</sup>, 2016"
+
+event_date_long: "Saturday, September 24<sup>th</sup>, 2016"
+
+packet_pickup_start_date_long: "Friday, September 23<sup>rd</sup>, 2016"
 
 event_location: "Downtown Grayslake, IL"
 
@@ -22,9 +30,11 @@ registration_vendor_link: '<a href="https://www.signmeup.com/109360" class="btn 
 
 registration_link: '<a href="registration.html" class="btn btn-danger btn-lg">Register Now!</a>'
 
-registration_form_url: 'assets/files/2015_RunForLearning_registration_form.pdf'
+registration_form_url: '/assets/files/2015_RunForLearning_registration_form.pdf'
 
-registration_form_link: '<a href="assets/files/2015_RunForLearning_registration_form.pdf" alt="2015 Run For Learning Registration Form" target="_blank"><i class="fa fa-file-pdf-o"></i> registration form</a>'
+registration_form_link: '<a href="/assets/files/2015_RunForLearning_registration_form.pdf" alt="2015 Run For Learning Registration Form" target="_blank"><i class="fa fa-file-pdf-o"></i> registration form</a>'
+
+grant_form_url: '/assets/files/2016/rfl_grant_application_v1a.pdf'
 
 sponsor_link: '<a href ="/sponsor.html" class="btn btn-success btn-lg">Become a Sponsor</a>'
 
@@ -34,39 +44,43 @@ contact_email: 'runforlearning@gmail.com'
 
 contact_phone: '(224) 419-4023'
 
-sponsorship_form_url: 'assets/files/rfl_5k_sponsorship_form_v3.pdf'
+contact_phone_unformatted: '2244194023'
 
-logo_image: '<img src="assets/images/run_for_learning_logo_2015.png" alt="Run for Learning logo"/>'
+sponsorship_form_url: '/assets/files/2016/rfl_5k_sponsorship_form_v1.pdf'
 
-2014_logo_image: '<img src="assets/images/run_for_learning_logo_2014.jpg" alt="Run for Learning logo"/>'
+logo_image: '<img src="/assets/images/run_for_learning_logo_2015.png" alt="Run for Learning logo"/>'
+
+2014_logo_image: '<img src="/assets/images/run_for_learning_logo_2014.jpg" alt="Run for Learning logo"/>'
+
+2015_logo_image: '<img src="/assets/images/run_for_learning_logo_2015.png" alt="Run for Learning logo"/>'
 
 gcns_url: 'http://www.grayslake-coop.com/'
 
-gcns_logo_url: 'assets/images/gcns_logo.jpg'
+gcns_logo_url: '/assets/images/gcns_logo.jpg'
 
 gloryland_url: 'http://www.glorylandpreschool.com/'
 
-gloryland_logo_url: 'assets/images/gloryland_logo.jpg'
+gloryland_logo_url: '/assets/images/gloryland_logo.jpg'
 
 westlake_url: 'http://westlakechristian.org/'
 
-westlake_logo_url: 'assets/images/westlakechristian_logo.jpg'
+westlake_logo_url: '/assets/images/westlakechristian_logo.jpg'
 
 peppermint_url: 'http://peppermintstickcc.com'
 
-peppermint_logo_url: 'assets/images/peppermint_stick_logo.jpg'
+peppermint_logo_url: '/assets/images/peppermint_stick_logo.jpg'
 
 four_kids_url: 'http://www.4kidsclc.com/index.php'
 
-four_kids_logo_url: 'assets/images/trade_sponsors/4-kids-logo.jpg'
+four_kids_logo_url: '/assets/images/trade_sponsors/4-kids-logo.jpg'
 
 marys_peppermint_url: 'http://maryspeppermintstick.org/'
 
-marys_peppermint_logo_url: 'assets/images/trade_sponsors/marys_peppermint_logo.png'
+marys_peppermint_logo_url: '/assets/images/trade_sponsors/marys_peppermint_logo.png'
 
 tt_url: 'http://www.wildwoodpc.net/preschool/'
 
-tt_logo_url: 'assets/images/tiny_treasures_logo.jpg'
+tt_logo_url: '/assets/images/tiny_treasures_logo.jpg'
 
 race_results_5k_2014: '<a href="http://racetime.info/wp-content/uploads/2014/09/Run-For-Learning-5K-Overall-Results.htm" title="Run for Learning 5K 2014 Race Results" class="btn btn-success btn-lg" target="_blank">5K race results</a>'
 

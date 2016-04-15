@@ -54,13 +54,21 @@ footer > .container {
     opacity: 0.85; }
 
 #previous-races-masthead.jumbotron {
-  background-color: lightblue; }
+  background-image: url("/assets/images/2015_race_route.png");
+  background-size: cover;
+  background-position: 17px -366px; }
+  #previous-races-masthead.jumbotron #jumbotron-copy {
+    background-color: whitesmoke;
+    opacity: 0.85; }
 
 section {
   margin-bottom: 20px; }
 
 #main-logo {
   margin-top: 35px; }
+
+#donations .panel-body {
+  min-height: 180px; }
 
 #preschools h2, #trade-preschools h2 {
   margin-bottom: 40px; }
@@ -112,5 +120,8 @@ form#brace-io-contact-form {
 
 a.navbar-brand {
   padding: 6px 15px 0; }
+
+.grid .grid-item {
+  width: 300px; }
 
 /*# sourceMappingURL=main.css.map */

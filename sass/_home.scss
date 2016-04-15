@@ -21,8 +21,15 @@
     opacity: 0.85;
   }
 }
+
 #previous-races-masthead.jumbotron {
-  background-color: lightblue;
+  background-image: url('/assets/images/2015_race_route.png');
+  background-size: cover;
+  background-position: 17px -366px;
+  #jumbotron-copy {
+    background-color: whitesmoke;
+    opacity: 0.85;
+  }
 }
 
 section {
@@ -31,6 +38,12 @@ section {
 
 #main-logo {
   margin-top: 35px;
+}
+
+#donations {
+  .panel-body {
+    min-height: 180px;
+  }
 }
 
 #preschools, #trade-preschools {

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2nd Annual Run for Learning 5K Run/Walk and Kids Fun Run
+title: 3rd Annual Run for Learning 5K Run/Walk and Kids Fun Run
 description: Run for Learning is a professionally timed 5K walk/run that benefits two Grayslake, IL preschools.
 canonical_url: http://www.runforlearning.com/
 sitemap:
@@ -19,11 +19,9 @@ sitemap:
       </div>
       <div id="jumbotron-copy" class="col-md-7 col-md-offset-1">
         <h1>{{site.short_name}}</h1>
-        <p>Thanks to all our participants for coming out for the 2nd Annual {{site.name}} event.</p>
-        <h4>Congratulations to all and see you again next year!</h4>
+        <p>The {{site.running}} {{site.name}} will take place <strong>{{ site.event_date }}</strong> at <strong>{{ site.event_location }}</strong></p>
+        <p>Registration for the event will be open soon!</p>
         <p>
-          {{site.race_results_5k_2015}}
-          {{site.race_results_1k_2015}}
           <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/run_for_learning_logo_2015.png&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
         </p>
       </div>
@@ -31,12 +29,11 @@ sitemap:
   </div>
 </div>
 
-{% include congratulations.html %}
+{% include donations.html %}
 
 {% include event_details.html %}
 
 {% include awards.html %}
 
-{% include preschools.html %}
+{% include mission.html %}
 
-{% include sponsors.html %}

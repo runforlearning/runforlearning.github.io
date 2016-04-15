@@ -19,7 +19,7 @@ sitemap:
       </div>
       <div id="jumbotron-copy" class="col-md-7 col-md-offset-1">
         <h1>Become a Sponsor</h1>
-        <p>We cordially invite you to participate as a sponsor for the 2nd Annual {{ site.name }}.</p>
+        <p>We cordially invite you to participate as a sponsor for the {{ site.running }} {{ site.name }}.</p>
         <p>
           <span class="visible-xs">
             <a href="{{ site.sponsorship_form_url }}" alt="Run for Learning 5k sponsorship form" class="btn btn-success btn-lg" role="button" target="_blank"><i class="fa fa-file-pdf-o"></i> Sponsorship form</a>
@@ -37,21 +37,34 @@ sitemap:
 <section id="become-a-sponsor">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
-        <p class="lead">This event will raise money for two local Grayslake preschools.</p>
+      <div class="col-md-6">
+        <h2>Event Proceeds</h2>
+        <p class="lead">
+          Proceeds from this annual event will go to teachers at licensed early-education centers in Grayslake, IL and the surrounding area communities through a grant process.
+        </p>
         <p>Your sponsorship helps to defray from the cost of organizing the event along with providing a great opportunity to highlight your company name to thousands of people.  Please consider sponsoring this great event and help our children start off on the right path to a great education in our own community.<p>
-
+      </div>
+      <div class="col-md-6">
         {% include become_a_sponsor.html %}
-
+      </div>
+      <div class="col-md-12">
         {% include types_of_sponsorship.html %}
 
         <div class="well">
           If you have any questions feel free to email <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a> or call <abbr title="Phone">P:</abbr> {{ site.contact_phone }}.
         </div>
       </div>
-      <div id="sponsor-sidebar" class="col-md-4 clearfix">
-        {% include sponsor_sidebar.html %}
+    </div>
+  </div>
+</section>
+
+<section id="previous-sponsors">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {% include previous_sponsors.html %}
       </div>
     </div>
   </div>
 </section>
+
