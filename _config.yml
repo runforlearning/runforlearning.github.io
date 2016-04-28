@@ -46,6 +46,10 @@ contact_phone: '(224) 419-4023'
 
 contact_phone_unformatted: '2244194023'
 
+grant_address: '<address><strong>Run for Learning Board of Directors</strong><br/>Run For Learning Grant</br>P.O. Box 7491<br/>Grayslake, IL 60041</address>'
+
+grant_email: '<address><a href="mailto:runforlearning@gmail.com">runforlearning@gmail.com</a></address>'
+
 sponsorship_form_url: '/assets/files/2016/rfl_5k_sponsorship_form_v1.pdf'
 
 logo_image: '<img src="/assets/images/run_for_learning_logo_2016.jpg" alt="Run for Learning logo"/>'
