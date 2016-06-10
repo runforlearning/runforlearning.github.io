@@ -24,9 +24,9 @@ event_location: "Downtown Grayslake, IL"
 
 registration_url: 'registration.html'
 
-registration_vendor_url: "https://www.signmeup.com/109360"
+registration_vendor_url: "https://www.signmeup.com/site/online-event-registration/114862/SMUCalendar"
 
-registration_vendor_link: '<a href="https://www.signmeup.com/109360" class="btn btn-danger btn-lg" disabled="disabled" target="_blank">Register Online Now!</a>'
+registration_vendor_link: '<a href="https://www.signmeup.com/site/online-event-registration/114862/SMUCalendar" class="btn btn-danger btn-lg" target="_blank">Register Online Now!</a>'
 
 registration_link: '<a href="registration.html" class="btn btn-danger btn-lg">Register Now!</a>'
 
