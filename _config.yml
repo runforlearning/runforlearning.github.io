@@ -24,6 +24,8 @@ packet_pickup_location: "State Bank of The Lakes (50 Commerce Drive, Grayslake)"
 
 event_location: "Downtown Grayslake, IL"
 
+couch_to_5k_link: '<a href="http://www.apex-fitness.net/Class-Schedule.html" class="">Click here</a>'
+
 registration_url: 'registration.html'
 
 registration_vendor_url: "https://www.signmeup.com/site/online-event-registration/114862/SMUCalendar"
