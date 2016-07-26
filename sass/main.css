@@ -119,6 +119,11 @@ section {
   width: 100%;
   height: auto; }
 
+#couch-to-5k-promo {
+  background-color: #f9ecf2; }
+  #couch-to-5k-promo dt {
+    text-align: left; }
+
 #sponsor-sidebar {
   background-color: #f5f5f5; }
 

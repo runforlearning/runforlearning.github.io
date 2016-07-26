@@ -10,7 +10,7 @@ description: 5K Run/Walk and Kids Fun Run to raise funds for two Grayslake pre-s
 
 author_email: webmaster@grayslake-coop.com
 
-running: "3<sup>rd</sup> Annual"
+running: "3<sup>rd</sup>&nbsp;Annual"
 
 event_year: "2016"
 
@@ -25,6 +25,7 @@ packet_pickup_location: "State Bank of The Lakes (50 Commerce Drive, Grayslake)"
 event_location: "Downtown Grayslake, IL"
 
 couch_to_5k_link: '<a href="http://www.apex-fitness.net/Class-Schedule.html" class="">Click here</a>'
+couch_to_5k_link: '<a href="http://www.glpd.com/wp-content/uploads/2016/07/Fall-2016.pdf" alt="GLPD 2016 Fall program" target="_blank"><i class="fa fa-file-pdf-o"></i> GLPD 2016 Fall program guide</a>'
 
 registration_url: 'registration.html'
 
