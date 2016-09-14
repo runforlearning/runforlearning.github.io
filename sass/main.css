@@ -95,13 +95,13 @@ section {
 #trade-preschools h3 {
   font-size: 20px; }
 
-#sponsors {
+.sponsors {
   background-color: #f5f5f5; }
-  #sponsors h2 {
+  .sponsors h2 {
     margin-bottom: 40px; }
-  #sponsors div.caption {
+  .sponsors div.caption {
     min-height: 148px; }
-  #sponsors #rjgalla_grad_sponsor img {
+  .sponsors #rjgalla_grad_sponsor img {
     margin: 94px 0; }
 
 #race-route-directions li {
