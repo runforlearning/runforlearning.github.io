@@ -39,9 +39,11 @@ registration_form_url: '/assets/files/2016/2016_RunForLearning_registration_form
 
 registration_form_link: '<a href="/assets/files/2016/2016_RunForLearning_registration_form_v1.pdf" alt="2016 Run For Learning Registration Form" target="_blank"><i class="fa fa-file-pdf-o"></i> registration form</a>'
 
-grant_form_url: '/assets/files/2016/rfl_grant_application_v1b.pdf'
+grant_form_url: '/assets/files/2017/rfl_grant_application_2017.pdf'
 
 sponsor_link: '<a href ="/sponsor.html" class="btn btn-success btn-lg">Become a Sponsor</a>'
+
+sponsor_form_return_date_long: "Friday, July 29<sup>th</sup>, 2017"
 
 facebook_url: 'https://www.facebook.com/runforlearning5k'
 
@@ -55,7 +57,7 @@ grant_address: '<address><strong>Run for Learning Board of Directors</strong><br
 
 grant_email: '<address><a href="mailto:runforlearning@gmail.com">runforlearning@gmail.com</a></address>'
 
-sponsorship_form_url: '/assets/files/2016/rfl_5k_sponsorship_form_v1.1.pdf'
+sponsorship_form_url: '/assets/files/2017/rfl_5k_sponsorship_form_v1.pdf'
 
 logo_image: '<img src="/assets/images/run_for_learning_logo_2016.jpg" alt="Run for Learning logo"/>'
 
