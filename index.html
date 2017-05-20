@@ -19,19 +19,11 @@ sitemap:
       </div>
       <div id="jumbotron-copy" class="col-md-7 col-md-offset-1">
         <h1>{{site.short_name}}</h1>
-        <p>Thanks to all our participants for coming out for the {{site.running}} {{site.name}} event.</p>
-        <h4>Congratulations to all and see you again next year!</h4>
-        <p>
-          {{site.race_results_5k_2016}}
-          {{site.race_results_1k_2016}}
-          <a name="fb_share" type="button" class="btn btn-primary btn-lg" href="http://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}&media={{site.url}}/assets/images/run_for_learning_logo_2015.png&description={{page.description}}" class="joinFB"><i class="fa fa-facebook-square fa-lg"></i> Share</a>
-        </p>
+        {% include pre_race_jumbo.html %}
       </div>
     </div>
   </div>
 </div>
-
-{% include congratulations.html %}
 
 {% include event_details.html %}
 
@@ -40,7 +32,3 @@ sitemap:
 {% include mission.html %}
 
 {% include donations.html %}
-
-{% include top_sponsor.html %}
-
-{% include sponsor_appreciation.html %}

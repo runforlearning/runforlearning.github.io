@@ -10,15 +10,15 @@ description: 5K Run/Walk and Kids Fun Run to raise funds for two Grayslake pre-s
 
 author_email: webmaster@grayslake-coop.com
 
-running: "3<sup>rd</sup>&nbsp;Annual"
+running: "4<sup>th</sup>&nbsp;Annual"
 
-event_year: "2016"
+event_year: "2017"
 
-event_date: "September 24<sup>th</sup>, 2016"
+event_date: "September 23<sup>rd</sup>, 2017"
 
-event_date_long: "Saturday, September 24<sup>th</sup>, 2016"
+event_date_long: "Saturday, September 23<sup>rd</sup>, 2017"
 
-packet_pickup_start_date_long: "Friday, September 23<sup>rd</sup>, 2016"
+packet_pickup_start_date_long: "Friday, September 22<sup>rd</sup>, 2017"
 
 packet_pickup_location: "State Bank of The Lakes (50 Commerce Drive, Grayslake)"
 
@@ -29,9 +29,9 @@ couch_to_5k_link: '<a href="http://www.glpd.com/wp-content/uploads/2016/07/Fall-
 
 registration_url: 'registration.html'
 
-registration_vendor_url: "https://www.signmeup.com/site/online-event-registration/114862/SMUCalendar"
+registration_vendor_url: "https://raceroster.com/events/2017/13095/grayslake-run-for-learning-5k-1k-kids-dash"
 
-registration_vendor_link: '<a href="https://www.signmeup.com/site/online-event-registration/114862/SMUCalendar" class="btn btn-danger btn-lg" target="_blank">Register Online Now!</a>'
+registration_vendor_link: '<a href="https://raceroster.com/events/2017/13095/grayslake-run-for-learning-5k-1k-kids-dash" class="btn btn-danger btn-lg" target="_blank">Register Online Now!</a>'
 
 registration_link: '<a href="registration.html" class="btn btn-danger btn-lg">Register Now!</a>'
 
